@@ -1,0 +1,119 @@
+.container {
+    display:flex;
+    flex-direction: column;
+}
+
+.container .itema { 
+    background-color:darkblue;
+    color:white;
+    height:100px;
+    border:3px solid white;
+    flex:1;
+    text-align: center;
+}
+
+
+
+.container .itemc {
+    height:300px;
+    background-color: rgb(8, 8, 101);
+    flex:1;
+}
+
+.itemc {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemc div {
+    height:280px;
+    flex:1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.itemc .lista {
+    background-image: url('https://plus.unsplash.com/premium_photo-1666942829287-3c6c8984c9b7?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+
+}
+
+.highlight {
+    background-color: rgb(58, 177, 220);  
+    color:white;
+    font-weight: bold;
+}
+
+.itemd {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+}
+
+.itemd .cuadroa {
+    background:pink;
+    height:60px;
+    border:4px solid orange;
+    flex:1;
+    align-items: center;
+    justify-content: center;
+    display:flex; 
+}
+
+.itemd .cuadrob {
+    background:rgb(192, 255, 195);
+    height:60px;
+    border:4px solid rgb(10, 88, 50);
+    flex:1;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+}
+
+.itemd .cuadroc {
+    background:rgb(78, 0, 66);
+    height:60px;
+    border:4px solid rgb(255, 0, 144);
+    flex:1;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+}
+
+.itemd .cuadrod { 
+    background:rgb(197, 211, 45);
+    height:60px;
+    border:4px solid rgb(127, 172, 21);
+    flex:1;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+} 
+
+.titulo2 {
+    background:darkblue;
+    height:85px;
+    color:white;
+    text-align: center;
+}
+
+.features {
+    background:darkblue;
+    color:white;
+    text-align: center;
+}
+
+.imagen {
+    text-align: center;
+    background-image: url('https://plus.unsplash.com/premium_photo-1692485023061-e2999c314af0?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+
+.link {
+    text-align: center;
+    color:green;
+}
+
+  

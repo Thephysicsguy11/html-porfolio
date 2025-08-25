@@ -1,0 +1,46 @@
+* {
+    background-color: black;
+}
+.containerb {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center; 
+}
+
+
+
+.containerb div  {
+    height:200px;
+    background-color: black;
+    border:10px;
+    color:rgb(250, 250, 250); 
+    border:2px solid rgb(0, 0, 0);
+    flex:1; 
+    align-items: center;
+    text-align: center;
+    display: flex;
+    gap:5%; 
+}
+
+
+
+#titulito {
+  background-image: url('https://plus.unsplash.com/premium_photo-1667371411192-e163e9223ee4?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  height: 200px;
+  width: 100%;
+  flex: 1;
+  background-size: cover;     /* hace que cubra todo el div */
+  background-position: center; /* centra la imagen */
+  display: flex;              /* si quieres centrar el texto */
+  align-items: center;
+  justify-content: center;
+  color: white;               /* para que el texto se vea */
+}
+
+
+
+
+#videos {
+    background-image: url('https://plus.unsplash.com/premium_photo-1667371411192-e163e9223ee4?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+} 
